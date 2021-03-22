@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dts": "tsm **/*.module.scss --ignore node_modules/** -e default -p.~@example- packages/ --banner '// THIS FILE...'"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8",
+    "typescript": "^4.2.3",
+    "typed-scss-modules": "^4.1.1"
+  }
+}

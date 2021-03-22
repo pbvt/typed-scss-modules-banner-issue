@@ -1,0 +1,15 @@
+@use "~@example-core/styles/src/breakpoint";
+
+.example {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 10px;
+
+  @include breakpoint.example {
+    padding: 40px;
+  }
+
+  &Test {
+    background: #ccc;
+  }
+}

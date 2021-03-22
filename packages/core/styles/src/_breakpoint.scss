@@ -1,0 +1,5 @@
+@mixin example() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
